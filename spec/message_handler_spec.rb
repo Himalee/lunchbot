@@ -1,4 +1,3 @@
-require 'commands/foreman/add_apprentice'
 require 'commands/help'
 require 'commands/order/add_guest'
 require 'days'
@@ -42,7 +41,6 @@ RSpec.describe MessageHandler do
       Join the channel #lunchbot_dev
 
       Add a guest with no order | `add guest: name of guest`
-      Add yourself as the new foreman | `add apprentice`
       Copy someone's order | `copy order: @username`
       Delete a crafter | `delete crafter slack_user_name`
       Find out this week's foreman | `foreman`
